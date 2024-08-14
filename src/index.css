@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --primary: #535353;
+  --secondary: #161616;
+}
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Poppins";
+  background: var(--secondary);
+}
+* {
+  margin: 0;
+  color: white;
+}
+p {
+  margin: 0;
+}
+button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  background: var(--primary);
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* navbar */
+header nav {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+header nav h1 {
+  margin-right: auto;
+  border-bottom: 3px solid var(--primary);
+}
+header nav a {
+  text-decoration: none;
+  padding: 6px;
+  border-radius: 4px;
+}
+header nav a.active {
+  background: var(--primary);
+}
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+.createpost span {
+  font-size: 1rem;
+}
+.root-layout nav {
+  margin-bottom: 25px;
+}
+.root-layout nav a {
+  padding: 10px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  text-decoration: none;
+}
+.root-layout nav a:hover {
+  border-color: var(--primary);
+}
+.root-layout nav a.active {
+  background: var(--primary);
+}
+.root-buttons {
+  display: flex;
+  gap: 20px;
+}
+.home-buttons {
+  display: flex;
+  gap: 20px;
+  color: black;
+}
+.home h2 {
+  border-bottom: 3px solid var(--primary);
+  margin-bottom: 20px;
+}
+
+.post button {
+  margin-right: 10px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+form input,
+form textarea {
+  padding: 8px;
+  border-radius: 4px;
+  border: 0;
+  width: 200px;
+  color: var(--secondary);
+}
+form button {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 150px;
+  margin: auto;
+}
+.createpost {
+  color: black;
+}
+
+img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.error-message {
+  background-color: red;
+  border-radius: 4px;
+  width: 200px;
+  margin: 0;
+}
+.post {
+  margin-bottom: 30px;
+  border-bottom: 3px solid var(--primary);
+  border-top: 3px solid var(--primary);
+}

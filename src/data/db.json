@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "slug": "post-1",
+      "title": "Post 1",
+      "username": "username1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem beatae aspernatur quas quasi. Nostrum magnam distinctio harum ea aliquam, nihil eum perferendis ad, sed consequuntur quo, laboriosam dolores tenetur perspiciatis!",
+      "imageUrl": "https://images.pexels.com/photos/27583524/pexels-photo-27583524/free-photo-of-a-black-and-white-photo-of-a-flower.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": "f97e",
+      "comments": [
+        {
+          "cmt_user": "jhon",
+          "cmt_desc": "Yes,sir!"
+        }
+      ]
+    },
+    {
+      "slug": "post-2",
+      "title": "Post 2",
+      "username": "username2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem beatae aspernatur quas quasi. Nostrum magnam distinctio harum ea aliquam, nihil eum perferendis ad, sed consequuntur quo, laboriosam dolores tenetur perspiciatis!",
+      "imageUrl": "https://images.pexels.com/photos/24012421/pexels-photo-24012421/free-photo-of-water-lilies-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": "da9b",
+      "comments": [
+        {
+          "cmt_user": "Alex",
+          "cmt_desc": "I hate u!"
+        }
+      ]
+    },
+    {
+      "slug": "post-3",
+      "title": "Post 3",
+      "username": "username3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem beatae aspernatur quas quasi. Nostrum magnam distinctio harum ea aliquam, nihil eum perferendis ad, sed consequuntur quo, laboriosam dolores tenetur perspiciatis!",
+      "imageUrl": "https://images.pexels.com/photos/27601443/pexels-photo-27601443/free-photo-of-arte-brasileira.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "id": "8b1e",
+      "comments": [
+        {
+          "cmt_user": "OreoLover3k",
+          "cmt_desc": "I like oreos ^-^"
+        }
+      ]
+    },
+    {
+      "id": "7d0d",
+      "username": "erol",
+      "title": "bugün ne yiyeceğizzz?",
+      "description": "bence künefe",
+      "image": "",
+      "slug": "bugun-ne-yiyecegizzz"
+    }
+  ]
+}
